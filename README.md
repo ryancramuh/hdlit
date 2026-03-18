@@ -19,8 +19,8 @@ The __hdlit__ executable parent folder is hdlit/bin/
 ### Example use:
 
 ```bash
-./hdlit VER.sv # prints instantation template in terminal
-./hdlit VER.sv >> module_that_uses_VER.sv # >> concatenates
+hdlit VER.sv # prints instantation template in terminal
+hdlit VER.sv >> module_that_uses_VER.sv # >> concatenates
 ``` 
 
 ### Tutorial: 
@@ -48,5 +48,5 @@ Start with by defining a Verilog or SystemVerilog HDL source:
 
 Then run __hdlit__ 
 ``` bash
-./hdlit VER.sv # prints instantation template in terminal
+hdlit VER.sv # prints instantation template in terminal
 ```
