@@ -9,7 +9,9 @@ or
 git clone https://github.com/ryancramuh/hdlit.git
 
 # and then run
-cd hdlit && make 
+cd hdlit && make
+# then run
+sudo make install
 ```
 
 The __hdlit__ executable parent folder is hdlit/bin/
