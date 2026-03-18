@@ -50,3 +50,14 @@ Then run __hdlit__
 ``` bash
 hdlit VER.sv # prints instantation template in terminal
 ```
+
+```bash
+VER #(
+    .x(x)
+) u_VER (
+    .clk(clk),
+    .rst(rst),
+    .data_i(data_i),
+    .data_o(data_o)
+);
+```
